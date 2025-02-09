@@ -4,6 +4,7 @@ import defu from 'defu'
 import { ZodError } from 'zod'
 import type { CompleteConfig, Service, Tag } from '~/types'
 import { configSchema } from '~/server/validations'
+import axios from 'axios' // 引入 axios 用于发送 HTTP 请求
 
 type DraftService = Omit<Service, 'id'>
 
@@ -61,24 +62,27 @@ function createTagMap(tags: Tag[]): TagMap {
 }
 
 /**
- * Load config from storage
+ * Load config from remote CDN
  */
 export async function loadConfig(): Promise<CompleteConfig> {
   const defaultConfig = getDefaultConfig()
-  const storage = useStorage('data')
 
   try {
-    if (!await storage.hasItem(configFileName)) {
-      throw new Error('Config not found')
-    }
+    // 远程配置文件的 URL
+    const remoteConfigUrl = 'https://up.ctext.top/config/config.yml'
 
-    const raw = await storage.getItem<string>(configFileName)
-    const config = yaml.parse(raw || '') || {}
+    // 从远程获取配置文件
+    const response = await axios.get(remoteConfigUrl)
+    const raw = response.data // 获取配置文件内容
+    console.log("远程配置文件读取")
+    const config = yaml.parse(raw) || {} // 解析 YAML
     const services: CompleteConfig['services'] = []
     const tags: TagMap = createTagMap(config.tags || [])
 
+    // 验证配置文件
     configSchema.parse(config)
 
+    // 处理 services
     if (Array.isArray(config.services)) {
       services.push({
         items: determineService(config.services, tags),
@@ -94,6 +98,7 @@ export async function loadConfig(): Promise<CompleteConfig> {
       }
     }
 
+    // 合并默认配置和远程配置
     return defu({ ...config, services }, defaultConfig)
   } catch (e) {
     logger.error(e)
