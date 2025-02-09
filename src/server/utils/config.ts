@@ -69,7 +69,7 @@ export async function loadConfig(): Promise<CompleteConfig> {
 
   try {
     // 远程配置文件的 URL
-    const remoteConfigUrl = 'https://up.ctext.top/config/config.yml'
+    const remoteConfigUrl = 'https://mafl-config.ctext.top/config-pub.yml'
 
     // 从远程获取配置文件
     const response = await axios.get(remoteConfigUrl)
