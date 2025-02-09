@@ -68,13 +68,14 @@ export async function loadConfig(): Promise<CompleteConfig> {
   const defaultConfig = getDefaultConfig()
 
   try {
+    console.log("开始读取远程配置文件")
     // 远程配置文件的 URL
     const remoteConfigUrl = 'https://mafl-config.ctext.top/config-pub.yml'
 
     // 从远程获取配置文件
     const response = await axios.get(remoteConfigUrl)
+    console.log("远程配置文件status  " + response.status)
     const raw = response.data // 获取配置文件内容
-    console.log("远程配置文件读取")
     const config = yaml.parse(raw) || {} // 解析 YAML
     const services: CompleteConfig['services'] = []
     const tags: TagMap = createTagMap(config.tags || [])
@@ -102,6 +103,7 @@ export async function loadConfig(): Promise<CompleteConfig> {
     return defu({ ...config, services }, defaultConfig)
   } catch (e) {
     logger.error("远程配置文件获取异常，请检查" + e)
+    console.log("远程配置文件获取异常，请检查" + e)
 
     if (e instanceof Error) {
       defaultConfig.error = e.message
