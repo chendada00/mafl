@@ -101,7 +101,7 @@ export async function loadConfig(): Promise<CompleteConfig> {
     // 合并默认配置和远程配置
     return defu({ ...config, services }, defaultConfig)
   } catch (e) {
-    logger.error(e)
+    logger.error("远程配置文件获取异常，请检查" + e)
 
     if (e instanceof Error) {
       defaultConfig.error = e.message
