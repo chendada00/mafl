@@ -157,8 +157,7 @@ export async function getConfig(): Promise<CompleteConfig | null> {
   await storage.getKeys()
 
 
-  // return storage.getItem<CompleteConfig>('config')
-  return loadConfig();
+  return storage.getItem<CompleteConfig>('config')
 }
 
 /**

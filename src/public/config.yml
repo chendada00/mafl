@@ -28,11 +28,22 @@ tags:
     color: pink
 services:
   个人服务:
-    - title: 伴随的小站
+    - title: 我の主页
+      description: 个人主页
+      link: https://home.ctext.top/
+      icon:
+        url: https://up.ctext.top/avatar.png
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 私有部署
+    - title: 伴随の小站
       description: 个人博客
       link: https://ctext.top/
       icon:
-        url: https://up.ctext.top/avatar.png
+        url: https://up.ctext.top/favicon.svg
         wrap: true
       status:
         enabled: true
