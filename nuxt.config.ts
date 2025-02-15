@@ -2,6 +2,7 @@ import process from 'node:process'
 
 export default defineNuxtConfig({
   srcDir: 'src',
+
   app: {
     head: {
       link: [
@@ -21,6 +22,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   pwa: {
     registerType: 'autoUpdate',
     scope: '/',
@@ -58,6 +60,7 @@ export default defineNuxtConfig({
       navigateFallback: '/',
     },
   },
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
@@ -66,6 +69,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     'nuxt-icon',
   ],
+
   i18n: {
     locales: [
       {
@@ -139,12 +143,15 @@ export default defineNuxtConfig({
     langDir: 'locales',
     defaultLocale: 'en',
   },
+
   tailwindcss: {
     cssPath: '~/assets/style/tailwind.css',
   },
+
   colorMode: {
     classSuffix: '',
   },
+
   nitro: {
     storage: {
       data: {
@@ -157,4 +164,6 @@ export default defineNuxtConfig({
       tasks: true,
     },
   },
+
+  compatibilityDate: '2025-02-15',
 })

@@ -68,22 +68,38 @@ export async function loadConfig(): Promise<CompleteConfig> {
   const defaultConfig = getDefaultConfig()
 
   try {
-    console.log("开始读取远程配置文件")
-    // 远程配置文件的 URL
-    const remoteConfigUrl = 'https://mafl-config.ctext.top/config-pub.yml'
+    let remoteConfigUrl = '/config-pub.yml'
 
-    // 从远程获取配置文件
+    if (typeof window !== 'undefined') {
+      // 在浏览器环境下获取完整 URL
+      const baseUrl = window.location.origin
+      const urlParams = new URLSearchParams(window.location.search)
+      const configType = urlParams.get('type')
+      remoteConfigUrl = `${baseUrl}/${configType === 'cb' ? 'config.yml' : 'config-pub.yml'}`
+    } else {
+      // 服务器环境下从环境变量读取 BASE_URL
+      const baseUrl = process.env.BASE_URL || 'https://main.ctext.top'
+      remoteConfigUrl = `${baseUrl}/config-pub.yml`
+      console.log("没有window对象")
+
+    }
+
+    console.log("远程配置文件地址: " + remoteConfigUrl)
+
+    // 使用 axios 获取远程 YAML 文件
     const response = await axios.get(remoteConfigUrl)
-    console.log("远程配置文件status  " + response.status)
-    const raw = response.data // 获取配置文件内容
-    const config = yaml.parse(raw) || {} // 解析 YAML
-    const services: CompleteConfig['services'] = []
-    const tags: TagMap = createTagMap(config.tags || [])
+    console.log("远程配置文件status: " + response.status)
+
+    const raw = response.data
+    const config = yaml.parse(raw) || {}
 
     // 验证配置文件
     configSchema.parse(config)
 
     // 处理 services
+    const services: CompleteConfig['services'] = []
+    const tags: TagMap = createTagMap(config.tags || [])
+
     if (Array.isArray(config.services)) {
       services.push({
         items: determineService(config.services, tags),
@@ -99,11 +115,10 @@ export async function loadConfig(): Promise<CompleteConfig> {
       }
     }
 
-    // 合并默认配置和远程配置
     return defu({ ...config, services }, defaultConfig)
   } catch (e) {
-    logger.error("远程配置文件获取异常，请检查" + e)
-    console.log("远程配置文件获取异常，请检查" + e)
+    logger.error("远程配置文件获取异常: " + e)
+    console.error("远程配置文件获取异常: ", e)
 
     if (e instanceof Error) {
       defaultConfig.error = e.message
@@ -120,6 +135,7 @@ export async function loadConfig(): Promise<CompleteConfig> {
 
   return defaultConfig
 }
+
 
 /**
  * Save config to memory storage
@@ -140,7 +156,9 @@ export async function getConfig(): Promise<CompleteConfig | null> {
   const storage = useStorage('main')
   await storage.getKeys()
 
-  return storage.getItem<CompleteConfig>('config')
+
+  // return storage.getItem<CompleteConfig>('config')
+  return loadConfig();
 }
 
 /**

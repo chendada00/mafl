@@ -1,0 +1,500 @@
+title: 伴随de个人导航站
+theme: dark
+lang: zh
+tags:
+  - name: 服务器
+    color: lime
+  - name: 文件管理
+    color: teal
+  - name: 开发工具
+    color: pink
+  - name: AI
+    color: violet
+  - name: 视频生成
+    color: purple
+  - name: 实时监控
+    color: green
+  - name: 文档
+    color: sky
+  - name: GitHub
+    color: rose
+  - name: 机场
+    color: lime
+  - name: 私有部署
+    color: indigo
+  - name: 小游戏
+    color: cyan
+  - name: 在线运行代码
+    color: pink
+services:
+  个人服务:
+    - title: 伴随的小站
+      description: 个人博客
+      link: https://ctext.top/
+      icon:
+        url: https://up.ctext.top/avatar.png
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
+
+    - title: 渐变图片
+      description: 用于生成博客主图
+      link: https://gc.ctext.top
+      icon:
+        name: i-mdi:color
+        wrap: true
+        color: '#f3a694'
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 私有部署
+
+  开发工具:
+
+    - title: Vercel
+      description: 一个云平台,用于构建、部署和扩展无服务器应用程序和静态网站
+      link: https://vercel.com/
+      icon:
+        name: skill-icons:vercel-dark
+        wrap: true
+      tags:
+        - name: 静态网站部署
+          color: lime
+
+    - title: IT-TOOLS
+      description: IT工具集
+      link: https://tools.ctext.top/
+      icon:
+        name: mynaui:tool
+        wrap: true
+      tags:
+        - 开发工具
+        - 私有部署
+    - title: Simple mind map
+      description: 一个简单强大的 Web 思维导图
+      link: https://mind.ctext.top/
+      icon:
+        name: i-icon-park-outline:mind-mapping
+        wrap: true
+        color: '#3cb3aa'
+      tags:
+        - 开发工具
+        - 私有部署
+
+    - title: ICONIFY
+      description: 一个图标集和图标管理工具
+      link: https://icon-sets.iconify.design/
+      icon:
+        name: line-md:iconify2-static
+        wrap: true
+        color: '#0066c4'
+      tags:
+        - name: 图标库
+          color: rose
+
+    - title: iconfont
+      description: 阿里巴巴矢量图标库
+      link: https://www.iconfont.cn/
+      icon:
+        url: https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg
+        wrap: true
+      tags:
+        - name: 图标库
+          color: rose
+
+  常用网站:
+    - title: z-lib
+      description: 书籍下载
+      link: https://z-lib.io/
+      icon:
+        name: mdi:library-outline
+        wrap: true
+        color: '#4bafcf'
+      tags:
+        - name: 书籍
+          color: rose
+
+
+    - title: SAKURA FRP
+      description: 内网穿透
+      link: https://www.natfrp.com/tunnel/
+      icon:
+        name: tabler:network
+        wrap: true
+        color: '#4994c4'
+      tags:
+        - name: 网络
+          color: cyan
+
+    - title: 豌豆荚
+      description: 手机APP下载
+      link: https://www.wandoujia.com/
+      icon:
+        name: fluent-emoji-flat:pea-pod
+        wrap: true
+      tags:
+        - name: 应用商店
+          color: lime
+
+    - title: 野草云
+      description: 云服务器提供商
+      link: https://my.yecaoyun.com/aff.php?aff=5523
+      icon:
+        name: line-md:cloud-alt-twotone
+        wrap: true
+        color: '#3198f8'
+      tags:
+        - 服务器
+    - title: UCloud
+      description: 云服务器提供商
+      link: https://console.ucloud.cn/light-server/
+      icon:
+        url: https://console.ucloud.cn/favicon/favicon.ico
+        wrap: true
+      tags:
+        - 服务器
+    - title: 腾讯云域名解析
+      description: 域名管理
+      link: https://console.cloud.tencent.com/cns
+      icon:
+        name: stash:domain-duotone
+        wrap: true
+        color: '#62dbe8'
+      tags:
+        - 服务器
+
+    - title: 又拍云
+      description: 通用的大规模存储服务
+      link: https://console.upyun.com/dashboard/
+      icon:
+        url: https://www.upyun.com/static/favicon-32x32.png
+        wrap: true
+        color: '#62dbe8'
+      tags:
+        - name: 云存储
+          color: cyan
+    - title: 快捷键
+      description: WIN MAC 快捷键大全
+      link: https://ctext.top/9b1f.html
+      icon:
+        name: teenyicons:keyboard-outline
+        wrap: true
+        color: '#08749c'
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
+
+  文档:
+    - title: Mafl
+      description: 本网站的文档
+      link: https://mafl.hywax.space/
+      icon:
+        url: https://mafl.hywax.space/logotype.svg
+        wrap: true
+      tags:
+        - 文档
+
+    - title: 1Panel
+      description: 服务器运维管理面板。
+      link: https://1panel.cn/docs/
+      icon:
+        name: simple-icons:1panel
+        color: '#0a7be0'
+        wrap: true
+      tags:
+        - 文档
+
+    - title: 必应每日一图
+      description: 官方存储库
+      link: https://github.com/androidmumo/bing
+      icon:
+        name: i-line-md:github-loop
+        wrap: true
+      tags:
+        - GitHub
+    - title: GPT_API_free
+      description: 免费APIKey限制200请求
+      link: https://github.com/chatanywhere/GPT_API_free
+      icon:
+        name: i-line-md:github-loop
+        wrap: true
+      tags:
+        - GitHub
+    - title: 安知鱼主题文档
+      description: Hexo主题
+      link: https://docs.anheyu.com/
+      icon:
+        name: icon-park-twotone:theme
+        wrap: true
+        color: '#c5e7ff'
+      tags:
+        - 文档
+
+  娱乐:
+    - title: 人生重开模拟器
+      description: 在线版人生重开模拟器
+      link: https://liferestart.syaro.io/public/index.html
+      icon:
+        name: fluent-color:people-team-20
+        wrap: true
+      tags:
+        - 小游戏
+    - title: 小霸王，其乐无穷
+      description: 小时候的回忆
+      link: https://www.yikm.net/
+      icon:
+        name: streamline-emojis:mushroom
+        wrap: true
+      tags:
+        - 小游戏
+    - title: 球归色条
+      description: 考验反应力
+      link: www.looptap.top
+      icon:
+        name: line-md:circle-twotone
+        wrap: true
+        color: '#ef5764'
+      tags:
+        - 小游戏
+
+
+  在线工具:
+    - title: 文件转换器
+      description: 全能格式转换
+      link: https://convertio.co/zh/
+      icon:
+        name: simple-icons:convertio
+        wrap: true
+        color: '#ff3731'
+
+  AI:
+    - title: DeepSeek
+      description: 探索未至之境
+      link: https://chat.deepseek.com/
+      icon:
+        url: https://up.ctext.top/nav/deepseek.ico
+        wrap: true
+      tags:
+        - AI
+    - title: ChatGPT
+      description: OpenAI
+      link: https://chat.openai.com/
+      icon:
+        name: i-hugeicons:chat-gpt
+        wrap: true
+        color: '#000000'
+        background: '#ffffff'
+      tags:
+        - AI
+
+    - title: Perplexity AI
+      description: 相当于搜索引擎聚合总结
+      link: https://www.perplexity.ai/
+      icon:
+        name: i-simple-icons:perplexity
+        wrap: true
+        color: '#21808d'
+      tags:
+        - AI
+
+    - title: 文心一言
+      description: 百度旗下AI产品
+      link: https://yiyan.baidu.com/
+      icon:
+        wrap: true
+        url: https://nlp-eb.cdn.bcebos.com/static/eb/asset/logo.8a6b508d.png
+      tags:
+        - AI
+
+    - title: 通义千问
+      description: 阿里旗下AI产品
+      link: https://tongyi.aliyun.com/qianwen/
+      icon:
+        wrap: true
+        url: https://img.alicdn.com/imgextra/i1/O1CN01asLYeX1WhbsyEZn5u_!!6000000002820-55-tps-56-56.svg
+      tags:
+        - AI
+
+    - title: Dream Machine
+      description: 视频生成AI
+      link: https://lumalabs.ai/
+      icon:
+        name: i-tabler:video
+        wrap: true
+        color: '#753fad'
+      tags:
+        - AI
+        - 视频生成
+
+  在线编译器:
+    - title: PHP
+      description: PHP 在线工具
+      link: https://tools.qzxdp.cn/runphp
+      icon:
+        name: hugeicons:php
+        wrap: true
+        color: '#777BB4'
+      tags:
+        - 在线运行代码
+
+    - title: Python3
+      description: Python3 在线工具
+      link: https://tools.qzxdp.cn/runpy3
+      icon:
+        name: logos:python
+        wrap: true
+      tags:
+        - 在线运行代码
+
+    - title: Python2
+      description: Python2 在线工具
+      link: https://tools.qzxdp.cn/runpy2
+      icon:
+        name: logos:python
+        wrap: true
+      tags:
+        - 在线运行代码
+
+    - title: Java
+      description: Java 在线工具
+      link: https://tools.qzxdp.cn/runjava
+      icon:
+        name: hugeicons:java
+        wrap: true
+        color: '#007396'
+      tags:
+        - 在线运行代码
+
+    - title: C
+      description: C 在线工具
+      link: https://tools.qzxdp.cn/runc
+      icon:
+        name: hugeicons:cpp
+        wrap: true
+        color: '#A8B9CC'
+      tags:
+        - 在线运行代码
+
+    - title: C++
+      description: C++ 在线工具
+      link: https://tools.qzxdp.cn/runccc
+      icon:
+        name: hugeicons:cpp
+        wrap: true
+        color: '#00599C'
+      tags:
+        - 在线运行代码
+
+    - title: C#
+      description: C# 在线工具
+      link: https://tools.qzxdp.cn/runnet
+      icon:
+        name: skill-icons:dotnet
+        wrap: true
+      tags:
+        - 在线运行代码
+
+    - title: Bash
+      description: Bash 在线工具
+      link: https://tools.qzxdp.cn/runbash
+      icon:
+        name: devicon:bash
+        wrap: true
+      tags:
+        - 在线运行代码
+
+    - title: Go
+      description: Go 在线工具
+      link: https://tools.qzxdp.cn/rungo
+      icon:
+        name: devicon:go-wordmark
+        wrap: true
+      tags:
+        - 在线运行代码
+
+    - title: Lua
+      description: Lua 在线工具
+      link: https://tools.qzxdp.cn/runlua
+      icon:
+        name: devicon:lua
+        wrap: true
+      tags:
+        - 在线运行代码
+
+    - title: Javascript
+      description: Javascript 在线工具
+      link: https://tools.qzxdp.cn/runjs
+      icon:
+        name: skill-icons:javascript
+        wrap: true
+      tags:
+        - 在线运行代码
+
+    - title: TypeScript
+      description: TypeScript 在线工具
+      link: https://tools.qzxdp.cn/runts
+      icon:
+        name: skill-icons:typescript
+        wrap: true
+      tags:
+        - 在线运行代码
+
+  ✈️:
+    - title: 三分
+      description: 机场
+      link: https://xn--ehq00hgtfdmt.xyz/register?code=E22m8qzS
+      icon:
+        name: entypo:aircraft
+        wrap: true
+        color: '#f5abb9'
+      tags:
+        - 机场
+    - title: 一元
+      description: 机场
+      link: https://xn--4gq62f52gdss.ink/#/register?code=Gx4y9oQu
+      icon:
+        name: entypo:aircraft
+        wrap: true
+        color: '#0665d0'
+      tags:
+        - 机场
+    - title: 亏本
+      description: 机场
+      link: https://xn--7kq24s4ynvb.site/#/register?code=eDzZKnqg
+      icon:
+        name: entypo:aircraft
+        wrap: true
+        color: '#319795'
+      tags:
+        - 机场
+    - title: IKUUU
+      description: 免费
+      link: https://ikuuu.one/auth/register?code=RKiB
+      icon:
+        name: entypo:aircraft
+        wrap: true
+        color: '#7c6d53'
+      tags:
+        - 机场
+#amber: 琥珀色（带有金黄色调的黄色）
+#orange: 橙色（鲜艳的橙色）
+#yellow: 黄色（基本的黄色）
+#lime: 青柠色（类似柠檬的鲜绿色）
+#green: 绿色（基础的绿色）
+#emerald: 翡翠绿（深绿中带有蓝色调的颜色）
+#teal: 水鸭色（青绿色，带有一点蓝色）
+#cyan: 青色（接近天蓝色的绿色）
+#sky blue: 天空蓝（接近晴天的蓝色）
+#indigo: 靛蓝色（深蓝色带紫色调）
+#violet: 紫罗兰色（偏蓝的紫色）
+#purple: 紫色（混合红色和蓝色的颜色）
+#fuchsia: 紫红色（鲜艳的红紫色）
+#pink: 粉红色（浅红色）
+#rose: 玫瑰色（带有红色和粉色的颜色）
