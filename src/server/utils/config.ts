@@ -68,21 +68,9 @@ export async function loadConfig(): Promise<CompleteConfig> {
   const defaultConfig = getDefaultConfig()
 
   try {
-    let remoteConfigUrl = '/config-pub.yml'
 
-    if (typeof window !== 'undefined') {
-      // 在浏览器环境下获取完整 URL
-      const baseUrl = window.location.origin
-      const urlParams = new URLSearchParams(window.location.search)
-      const configType = urlParams.get('type')
-      remoteConfigUrl = `${baseUrl}/${configType === 'cb' ? 'config.yml' : 'config-pub.yml'}`
-    } else {
-      // 服务器环境下从环境变量读取 BASE_URL
-      const baseUrl = process.env.BASE_URL || 'https://main.ctext.top'
-      remoteConfigUrl = `${baseUrl}/config-pub.yml`
-      console.log("没有window对象")
-
-    }
+    const baseUrl = 'https://nav.ctext.top'
+    let remoteConfigUrl = `${baseUrl}/config-pub.yml`
 
     console.log("远程配置文件地址: " + remoteConfigUrl)
 
