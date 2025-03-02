@@ -1,4 +1,4 @@
-title: 伴随de个人导航站
+title: 伴随の个人导航站
 theme: dark
 lang: zh
 tags:
@@ -65,6 +65,19 @@ services:
         number: 3600
       tags:
         - 私有部署
+
+    - title: LobeChat
+      description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
+      link: https://chat.ctext.top/
+      icon:
+        url: https://chat.ctext.top/favicon.ico?v=1
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 私有部署
+        - AI
 
   开发工具:
 
@@ -387,7 +400,7 @@ services:
       description: C 在线工具
       link: https://tools.qzxdp.cn/runc
       icon:
-        name: hugeicons:cpp
+        name: tabler:brand-cpp
         wrap: true
         color: '#A8B9CC'
       tags:
@@ -397,7 +410,7 @@ services:
       description: C++ 在线工具
       link: https://tools.qzxdp.cn/runccc
       icon:
-        name: hugeicons:cpp
+        name: tabler:brand-cpp
         wrap: true
         color: '#00599C'
       tags:
@@ -418,6 +431,7 @@ services:
       icon:
         name: devicon:bash
         wrap: true
+        color: '#288ec8'
       tags:
         - 在线运行代码
 
