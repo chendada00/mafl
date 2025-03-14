@@ -288,6 +288,15 @@ services:
       tags:
         - 小游戏
 
+    - title: 大佬论坛
+      description: 十年之约交流论坛
+      link: https://www.dalao.net/
+      icon:
+        name: fxemoji:smiletongue
+        wrap: true
+      tags:
+        - name: 论坛
+          color: rose
 
   在线工具:
     - title: 文件转换器
