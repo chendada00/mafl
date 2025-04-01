@@ -3,23 +3,23 @@ theme: dark
 lang: zh
 tags:
   - name: 服务器
-    color: lime
+    color: emerald
   - name: 文件管理
     color: teal
   - name: 开发工具
-    color: pink
+    color: fuchsia
   - name: AI
     color: violet
   - name: 视频生成
     color: purple
   - name: 实时监控
-    color: green
+    color: sky blue
   - name: 文档
-    color: sky
+    color: orange
   - name: GitHub
     color: rose
   - name: 机场
-    color: lime
+    color: amber
   - name: 私有部署
     color: indigo
   - name: 小游戏
@@ -27,7 +27,7 @@ tags:
   - name: 在线运行代码
     color: pink
 services:
-  个人服务:
+  个人应用:
     - title: 我の主页
       description: 个人主页
       link: https://home.ctext.top/
@@ -50,9 +50,8 @@ services:
         number: 3600
       tags:
         - name: 个人博客
-          color: violet
+          color: fuchsia
         - 私有部署
-
     - title: 渐变图片
       description: 用于生成博客主图
       link: https://gc.ctext.top
@@ -65,7 +64,6 @@ services:
         number: 3600
       tags:
         - 私有部署
-
     - title: LobeChat
       description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
       link: https://chat.ctext.top/
@@ -78,9 +76,7 @@ services:
       tags:
         - 私有部署
         - AI
-
   开发工具:
-
     - title: Vercel
       description: 一个云平台,用于构建、部署和扩展无服务器应用程序和静态网站
       link: https://vercel.com/
@@ -89,8 +85,7 @@ services:
         wrap: true
       tags:
         - name: 静态网站部署
-          color: lime
-
+          color: yellow
     - title: IT-TOOLS
       description: IT工具集
       link: https://tools.ctext.top/
@@ -110,7 +105,6 @@ services:
       tags:
         - 开发工具
         - 私有部署
-
     - title: ICONIFY
       description: 一个图标集和图标管理工具
       link: https://icon-sets.iconify.design/
@@ -120,8 +114,7 @@ services:
         color: '#0066c4'
       tags:
         - name: 图标库
-          color: rose
-
+          color: orange
     - title: iconfont
       description: 阿里巴巴矢量图标库
       link: https://www.iconfont.cn/
@@ -130,8 +123,7 @@ services:
         wrap: true
       tags:
         - name: 图标库
-          color: rose
-
+          color: orange
   常用网站:
     - title: z-lib
       description: 书籍下载
@@ -142,9 +134,7 @@ services:
         color: '#4bafcf'
       tags:
         - name: 书籍
-          color: rose
-
-
+          color: yellow
     - title: SAKURA FRP
       description: 内网穿透
       link: https://www.natfrp.com/tunnel/
@@ -154,8 +144,7 @@ services:
         color: '#4994c4'
       tags:
         - name: 网络
-          color: cyan
-
+          color: green
     - title: 豌豆荚
       description: 手机APP下载
       link: https://www.wandoujia.com/
@@ -164,8 +153,7 @@ services:
         wrap: true
       tags:
         - name: 应用商店
-          color: lime
-
+          color: yellow
     - title: 野草云
       description: 云服务器提供商
       link: https://my.yecaoyun.com/aff.php?aff=5523
@@ -192,7 +180,6 @@ services:
         color: '#62dbe8'
       tags:
         - 服务器
-
     - title: 又拍云
       description: 通用的大规模存储服务
       link: https://console.upyun.com/dashboard/
@@ -212,10 +199,9 @@ services:
         color: '#08749c'
       tags:
         - name: 个人博客
-          color: violet
+          color: fuchsia
         - 私有部署
-
-  文档:
+  文档与资源:
     - title: Mafl
       description: 本网站的文档
       link: https://mafl.hywax.space/
@@ -224,7 +210,6 @@ services:
         wrap: true
       tags:
         - 文档
-
     - title: 1Panel
       description: 服务器运维管理面板。
       link: https://1panel.cn/docs/
@@ -234,7 +219,14 @@ services:
         wrap: true
       tags:
         - 文档
-
+    - title: lazyeat
+      description:  吃饭时看剧/刷网页不想沾油手？
+      link: https://github.com/maplelost/lazyeat
+      icon:
+        name: noto-v1:shortcake
+        wrap: true
+      tags:
+        - GitHub
     - title: 必应每日一图
       description: 官方存储库
       link: https://github.com/androidmumo/bing
@@ -260,8 +252,16 @@ services:
         color: '#c5e7ff'
       tags:
         - 文档
-
   娱乐:
+    - title: 资源避难所
+      description: 公益性的游戏分享网站
+      link: https://www.flysheep6.com/
+      icon:
+        name: noto:video-game
+        wrap: true
+      tags:
+        - name: 破解
+          color: pink
     - title: 人生重开模拟器
       description: 在线版人生重开模拟器
       link: https://liferestart.syaro.io/public/index.html
@@ -287,7 +287,6 @@ services:
         color: '#ef5764'
       tags:
         - 小游戏
-
     - title: 大佬论坛
       description: 十年之约交流论坛
       link: https://www.dalao.net/
@@ -296,8 +295,7 @@ services:
         wrap: true
       tags:
         - name: 论坛
-          color: rose
-
+          color: purple
   在线工具:
     - title: 文件转换器
       description: 全能格式转换
@@ -306,8 +304,7 @@ services:
         name: simple-icons:convertio
         wrap: true
         color: '#ff3731'
-
-  AI:
+  AI 应用:
     - title: DeepSeek
       description: 探索未至之境
       link: https://chat.deepseek.com/
@@ -326,7 +323,6 @@ services:
         background: '#ffffff'
       tags:
         - AI
-
     - title: Perplexity AI
       description: 相当于搜索引擎聚合总结
       link: https://www.perplexity.ai/
@@ -336,7 +332,6 @@ services:
         color: '#21808d'
       tags:
         - AI
-
     - title: 文心一言
       description: 百度旗下AI产品
       link: https://yiyan.baidu.com/
@@ -345,7 +340,6 @@ services:
         url: https://nlp-eb.cdn.bcebos.com/static/eb/asset/logo.8a6b508d.png
       tags:
         - AI
-
     - title: 通义千问
       description: 阿里旗下AI产品
       link: https://tongyi.aliyun.com/qianwen/
@@ -354,7 +348,6 @@ services:
         url: https://img.alicdn.com/imgextra/i1/O1CN01asLYeX1WhbsyEZn5u_!!6000000002820-55-tps-56-56.svg
       tags:
         - AI
-
     - title: Dream Machine
       description: 视频生成AI
       link: https://lumalabs.ai/
@@ -365,8 +358,7 @@ services:
       tags:
         - AI
         - 视频生成
-
-  在线编译器:
+  编程在线:
     - title: PHP
       description: PHP 在线工具
       link: https://tools.qzxdp.cn/runphp
@@ -376,7 +368,6 @@ services:
         color: '#777BB4'
       tags:
         - 在线运行代码
-
     - title: Python3
       description: Python3 在线工具
       link: https://tools.qzxdp.cn/runpy3
@@ -385,7 +376,6 @@ services:
         wrap: true
       tags:
         - 在线运行代码
-
     - title: Python2
       description: Python2 在线工具
       link: https://tools.qzxdp.cn/runpy2
@@ -394,7 +384,6 @@ services:
         wrap: true
       tags:
         - 在线运行代码
-
     - title: Java
       description: Java 在线工具
       link: https://tools.qzxdp.cn/runjava
@@ -404,7 +393,6 @@ services:
         color: '#007396'
       tags:
         - 在线运行代码
-
     - title: C
       description: C 在线工具
       link: https://tools.qzxdp.cn/runc
@@ -414,7 +402,6 @@ services:
         color: '#A8B9CC'
       tags:
         - 在线运行代码
-
     - title: C++
       description: C++ 在线工具
       link: https://tools.qzxdp.cn/runccc
@@ -424,7 +411,6 @@ services:
         color: '#00599C'
       tags:
         - 在线运行代码
-
     - title: C#
       description: C# 在线工具
       link: https://tools.qzxdp.cn/runnet
@@ -433,7 +419,6 @@ services:
         wrap: true
       tags:
         - 在线运行代码
-
     - title: Bash
       description: Bash 在线工具
       link: https://tools.qzxdp.cn/runbash
@@ -443,7 +428,6 @@ services:
         color: '#288ec8'
       tags:
         - 在线运行代码
-
     - title: Go
       description: Go 在线工具
       link: https://tools.qzxdp.cn/rungo
@@ -452,7 +436,6 @@ services:
         wrap: true
       tags:
         - 在线运行代码
-
     - title: Lua
       description: Lua 在线工具
       link: https://tools.qzxdp.cn/runlua
@@ -461,7 +444,6 @@ services:
         wrap: true
       tags:
         - 在线运行代码
-
     - title: Javascript
       description: Javascript 在线工具
       link: https://tools.qzxdp.cn/runjs
@@ -470,7 +452,6 @@ services:
         wrap: true
       tags:
         - 在线运行代码
-
     - title: TypeScript
       description: TypeScript 在线工具
       link: https://tools.qzxdp.cn/runts
@@ -479,8 +460,7 @@ services:
         wrap: true
       tags:
         - 在线运行代码
-
-  ✈️:
+  机场服务:
     - title: 三分
       description: 机场
       link: https://xn--ehq00hgtfdmt.xyz/register?code=E22m8qzS

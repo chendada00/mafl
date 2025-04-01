@@ -374,6 +374,15 @@ services:
         - 文档
 
   娱乐:
+    - title: 资源避难所
+      description: 公益性的游戏分享网站
+      link: https://www.flysheep6.com/
+      icon:
+        name: noto:video-game
+        wrap: true
+      tags:
+        - name: 破解
+          color: violet
     - title: 人生重开模拟器
       description: 在线版人生重开模拟器
       link: https://liferestart.syaro.io/public/index.html
