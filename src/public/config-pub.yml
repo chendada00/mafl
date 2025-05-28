@@ -67,118 +67,118 @@ services:
         number: 3600
       tags:
         - 私有部署
-    - title: 1Panel
-      description: 服务器管理面板
-      link: https://1p.ctext.top/
-      icon:
-        name: i-simple-icons:1panel
-        wrap: true
-        color: '#2b74df'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 服务器
-        - 私有部署
+    # - title: 1Panel
+    #   description: 服务器管理面板
+    #   link: https://1p.ctext.top/
+    #   icon:
+    #     name: i-simple-icons:1panel
+    #     wrap: true
+    #     color: '#2b74df'
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 服务器
+    #     - 私有部署
 
-    - title: Alist
-      description: 一个支持多种存储的文件列表
-      link: https://alist.ctext.top
-      icon:
-        name: i-arcticons:alist
-        wrap: true
-        color: '#7bcac3'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 文件管理
-        - 私有部署
+    # - title: Alist
+    #   description: 一个支持多种存储的文件列表
+    #   link: https://alist.ctext.top
+    #   icon:
+    #     name: i-arcticons:alist
+    #     wrap: true
+    #     color: '#7bcac3'
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 文件管理
+    #     - 私有部署
 
 
-    - title: FileCodeBox
-      description: 文件快递柜
-      link: https://share.ctext.top/
-      icon:
-        name: line-md:file-plus-twotone
-        wrap: true
-        color: '#45c9ff'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 文件管理
-        - 私有部署
+    # - title: FileCodeBox
+    #   description: 文件快递柜
+    #   link: https://share.ctext.top/
+    #   icon:
+    #     name: line-md:file-plus-twotone
+    #     wrap: true
+    #     color: '#45c9ff'
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 文件管理
+    #     - 私有部署
 
-    - title: Code-Server
-      description: VSCode在线版
-      link: https://code.ctext.top
-      icon:
-        name: i-mingcute:vscode-line
-        wrap: true
-        color: '#3faaf2'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 开发工具
-        - 私有部署
+    # - title: Code-Server
+    #   description: VSCode在线版
+    #   link: https://code.ctext.top
+    #   icon:
+    #     name: i-mingcute:vscode-line
+    #     wrap: true
+    #     color: '#3faaf2'
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 开发工具
+    #     - 私有部署
 
-    - title: 直播监控
-      description: 自动录屏
-      link: https://live.ctext.top
-      icon:
-        name: i-mingcute:live-line
-        wrap: true
-        color: ''
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 实时监控
-        - 私有部署
+    # - title: 直播监控
+    #   description: 自动录屏
+    #   link: https://live.ctext.top
+    #   icon:
+    #     name: i-mingcute:live-line
+    #     wrap: true
+    #     color: ''
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 实时监控
+    #     - 私有部署
 
-    - title: 青龙
-      description: 定时任务管理平台
-      link: https://cql.ctext.top
-      icon:
-        name: i-openmoji:dragon-face
-        wrap: true
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - name: Cron
-          color: emerald
-        - 私有部署
-    - title: AriaNG
-      description: 离线下载
-      link: https://ng.ctext.top/
-      icon:
-        name: i-line-md:cloud-alt-download-filled
-        wrap: true
-        color: '#609966'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - name: 下载
-          color: violet
-        - 私有部署
-    - title: 每日壁纸
-      description: 必应每日一图
-      link: https://bing.ctext.top/
-      icon:
-        name: lucide:wallpaper
-        wrap: true
-        color: '#ccaeac'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - name: 壁纸
-          color: emerald
-        - 私有部署
+    # - title: 青龙
+    #   description: 定时任务管理平台
+    #   link: https://cql.ctext.top
+    #   icon:
+    #     name: i-openmoji:dragon-face
+    #     wrap: true
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - name: Cron
+    #       color: emerald
+    #     - 私有部署
+    # - title: AriaNG
+    #   description: 离线下载
+    #   link: https://ng.ctext.top/
+    #   icon:
+    #     name: i-line-md:cloud-alt-download-filled
+    #     wrap: true
+    #     color: '#609966'
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - name: 下载
+    #       color: violet
+    #     - 私有部署
+    # - title: 每日壁纸
+    #   description: 必应每日一图
+    #   link: https://bing.ctext.top/
+    #   icon:
+    #     name: lucide:wallpaper
+    #     wrap: true
+    #     color: '#ccaeac'
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - name: 壁纸
+    #       color: emerald
+    #     - 私有部署
 
     - title: LobeChat
       description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
