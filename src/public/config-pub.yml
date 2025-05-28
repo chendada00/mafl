@@ -180,18 +180,18 @@ services:
     #       color: emerald
     #     - 私有部署
 
-    - title: LobeChat
-      description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
-      link: https://chat.ctext.top/
-      icon:
-        url: https://chat.ctext.top/favicon.ico?v=1
-        wrap: true
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 私有部署
-        - AI
+    # - title: LobeChat
+    #   description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
+    #   link: https://chat.ctext.top/
+    #   icon:
+    #     url: https://chat.ctext.top/favicon.ico?v=1
+    #     wrap: true
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
+    #     - 私有部署
+    #     - AI
 
   常用网站:
 
