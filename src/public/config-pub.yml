@@ -307,6 +307,7 @@ services:
         wrap: true
       tags:
         - 影音
+        - 私有部署
 
 
   开发工具:
