@@ -81,19 +81,19 @@ services:
     #     - 服务器
     #     - 私有部署
 
-    # - title: Alist
-    #   description: 一个支持多种存储的文件列表
-    #   link: https://alist.ctext.top
-    #   icon:
-    #     name: i-arcticons:alist
-    #     wrap: true
-    #     color: '#7bcac3'
-    #   status:
-    #     enabled: true
-    #     number: 3600
-    #   tags:
-    #     - 文件管理
-    #     - 私有部署
+    - title: Alist
+      description: 一个支持多种存储的文件列表
+      link: https://alist.ctext.top
+      icon:
+        name: i-arcticons:alist
+        wrap: true
+        color: '#7bcac3'
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 文件管理
+        - 私有部署
 
 
     # - title: FileCodeBox
@@ -138,19 +138,19 @@ services:
     #     - 实时监控
     #     - 私有部署
 
-    # - title: 青龙
-    #   description: 定时任务管理平台
-    #   link: https://cql.ctext.top
-    #   icon:
-    #     name: i-openmoji:dragon-face
-    #     wrap: true
-    #   status:
-    #     enabled: true
-    #     number: 3600
-    #   tags:
-    #     - name: Cron
-    #       color: emerald
-    #     - 私有部署
+    - title: 青龙
+      description: 定时任务管理平台
+      link: https://cql.ctext.top
+      icon:
+        name: i-openmoji:dragon-face
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - name: Cron
+          color: emerald
+        - 私有部署
     # - title: AriaNG
     #   description: 离线下载
     #   link: https://ng.ctext.top/
@@ -165,20 +165,20 @@ services:
     #     - name: 下载
     #       color: violet
     #     - 私有部署
-    # - title: 每日壁纸
-    #   description: 必应每日一图
-    #   link: https://bing.ctext.top/
-    #   icon:
-    #     name: lucide:wallpaper
-    #     wrap: true
-    #     color: '#ccaeac'
-    #   status:
-    #     enabled: true
-    #     number: 3600
-    #   tags:
-    #     - name: 壁纸
-    #       color: emerald
-    #     - 私有部署
+    - title: 每日壁纸
+      description: 必应每日一图
+      link: https://bing.ctext.top/
+      icon:
+        name: lucide:wallpaper
+        wrap: true
+        color: '#ccaeac'
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - name: 壁纸
+          color: emerald
+        - 私有部署
 
     # - title: LobeChat
     #   description: 现代化设计的开源 ChatGPT/LLMs 聊天应用与开发框架
