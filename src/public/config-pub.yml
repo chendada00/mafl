@@ -310,7 +310,18 @@ services:
         - 私有部署
 
 
+
   开发工具:
+
+    - title: httpsok
+      description: 免费https证书
+      link: https://httpsok.com/console/cert
+      icon:
+        url: https://httpsok.com/favicon.ico
+        wrap: true
+      tags:
+        - name: 网站证书
+          color: cyan
     - title: Vercel
       description: 一个云平台,用于构建、部署和扩展无服务器应用程序和静态网站
       link: https://vercel.com/
