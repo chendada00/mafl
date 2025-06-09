@@ -304,6 +304,16 @@ services:
         - name: 个人博客
           color: violet
         - 私有部署
+    - title: 快捷键
+      description: IDEA 快捷键
+      link: https://ctext.top/dfd4.html
+      icon:
+        name: skill-icons:idea-light
+        wrap: true
+      tags:
+        - name: 个人博客
+          color: violet
+        - 私有部署
 
   影音:
     - title: LibreTV
