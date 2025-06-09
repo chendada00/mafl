@@ -296,7 +296,14 @@ services:
         - name: 个人博客
           color: violet
         - 私有部署
-
+    - title: 今日热榜
+      description: 各平台热榜聚合
+      link: https://hot.ctext.top/
+      icon:
+        name: noto:fire
+        wrap: true
+      tags:
+        - 私有部署
 
   影音:
     - title: LibreTV
