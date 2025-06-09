@@ -192,6 +192,14 @@ services:
     #   tags:
     #     - 私有部署
     #     - AI
+    - title: 今日热榜
+      description: 各平台热榜聚合
+      link: https://hot.ctext.top/
+      icon:
+        name: noto:fire
+        wrap: true
+      tags:
+        - 私有部署
 
   常用网站:
 
@@ -295,14 +303,6 @@ services:
       tags:
         - name: 个人博客
           color: violet
-        - 私有部署
-    - title: 今日热榜
-      description: 各平台热榜聚合
-      link: https://hot.ctext.top/
-      icon:
-        name: noto:fire
-        wrap: true
-      tags:
         - 私有部署
 
   影音:
