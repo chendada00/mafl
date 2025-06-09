@@ -385,7 +385,7 @@ services:
       description: 本网站的文档
       link: https://mafl.hywax.space/
       icon:
-        url: https://mafl.hywax.space/logotype.svg
+        url: /mafl.svg
         wrap: true
       tags:
         - 文档
