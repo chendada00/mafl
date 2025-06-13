@@ -338,8 +338,6 @@ services:
         - 影音
         - 私有部署
 
-
-
   开发工具:
 
     - title: httpsok
@@ -420,6 +418,20 @@ services:
         wrap: true
       tags:
         - GitHub
+
+    - title: JSONBin
+      description: JSONBin.io提供了一个简单的 REST 接口，用于在云端存储和检索 JSON 数据
+      link: https://jsonbin.io/app/bins
+      icon:
+        name: picon:json
+        wrap: true
+        color: "#2c6dee"
+      tags:
+        - name: 接口
+          color: lime
+
+
+  
   文档:
     - title: Mafl
       description: 本网站的文档
