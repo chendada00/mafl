@@ -43,7 +43,7 @@ services:
         - 私有部署
     - title: 伴随の小站
       description: 个人博客
-      link: https://ctext.top/
+      link: https://blog.ctext.top/
       icon:
         url: https://up.ctext.top/favicon.svg
         wrap: true
