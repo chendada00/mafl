@@ -82,7 +82,7 @@ services:
     #     - 私有部署
     - title: 宝塔
       description: 服务器管理面板
-      link: https://bt.ctext.top/
+      link: https://bt.ctext.top/admin
       icon:
         url : /bt.ico
         wrap: true
