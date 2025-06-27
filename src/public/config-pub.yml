@@ -34,7 +34,7 @@ services:
       description: 个人主页
       link: https://home.ctext.top/
       icon:
-        url: https://up.ctext.top/avatar.png
+        url: /avatar.png
         wrap: true
       status:
         enabled: true
@@ -45,7 +45,7 @@ services:
       description: 个人博客
       link: https://blog.ctext.top/
       icon:
-        url: https://up.ctext.top/favicon.svg
+        url: /favicon.svg
         wrap: true
       status:
         enabled: true
@@ -219,7 +219,7 @@ services:
       description: 云操作系统
       link: https://gzg.sealos.run/
       icon:
-        url: https://up.ctext.top/mafl/sealos.svg
+        url: /sealos.svg
       tags:
         - name: 服务器
 
@@ -358,7 +358,15 @@ services:
       tags:
         - name: 静态网站部署
           color: lime
-
+    - title: kinsta
+      description: 和Vercel类似
+      link: https://my.kinsta.com/
+      icon:
+        url: /kinsta.ico
+        wrap: true
+      tags:
+        - name: 静态网站部署
+          color: lime
     - title: IT-TOOLS
       description: IT工具集
       link: https://tools.ctext.top/
