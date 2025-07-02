@@ -493,7 +493,7 @@ services:
       description: 补丁下载
       link: https://speed.qq.com/web201503/page/download.shtml#patch_area
       icon:
-        url: /qqfeiche.ico
+        url: /favicons/qqfeiche.ico
         wrap: true
       tags:
         - name: 游戏
