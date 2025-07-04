@@ -152,7 +152,7 @@ services:
 
     - title: 青龙
       description: 定时任务管理平台
-      link: https://cql.ctext.top
+      link: https://ql.ctext.top
       icon:
         name: i-openmoji:dragon-face
         wrap: true
