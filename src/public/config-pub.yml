@@ -93,7 +93,20 @@ services:
       tags:
         - 服务器
         - 私有部署
-    - title: Alist
+
+    - title: 哪吒监控
+      description: 服务器监控
+      link: https://nezha.ctext.top/
+      icon:
+        url : /nezha.svg
+        wrap: true
+      status:
+        enabled: true
+        number: 3600
+      tags:
+        - 服务器
+        - 私有部署
+    # - title: Alist
       description: 一个支持多种存储的文件列表
       link: https://alist.ctext.top
       icon:
@@ -108,7 +121,7 @@ services:
         - 私有部署
 
 
-    - title: FileCodeBox
+    # - title: FileCodeBox
       description: 文件快递柜
       link: https://file.ctext.top/
       icon:
@@ -150,16 +163,16 @@ services:
     #     - 实时监控
     #     - 私有部署
 
-    - title: 青龙
-      description: 定时任务管理平台
-      link: https://ql.ctext.top
-      icon:
-        name: i-openmoji:dragon-face
-        wrap: true
-      status:
-        enabled: true
-        number: 3600
-      tags:
+    # - title: 青龙
+    #   description: 定时任务管理平台
+    #   link: https://ql.ctext.top
+    #   icon:
+    #     name: i-openmoji:dragon-face
+    #     wrap: true
+    #   status:
+    #     enabled: true
+    #     number: 3600
+    #   tags:
         - name: Cron
           color: emerald
         - 私有部署
