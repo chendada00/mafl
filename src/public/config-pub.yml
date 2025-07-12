@@ -122,18 +122,18 @@ services:
 
 
     # - title: FileCodeBox
-      description: 文件快递柜
-      link: https://file.ctext.top/
-      icon:
-        name: line-md:file-plus-twotone
-        wrap: true
-        color: '#45c9ff'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 文件管理
-        - 私有部署
+      # description: 文件快递柜
+      # link: https://file.ctext.top/
+      # icon:
+      #   name: line-md:file-plus-twotone
+      #   wrap: true
+      #   color: '#45c9ff'
+      # status:
+      #   enabled: true
+      #   number: 3600
+      # tags:
+      #   - 文件管理
+      #   - 私有部署
 
     # - title: Code-Server
     #   description: VSCode在线版
