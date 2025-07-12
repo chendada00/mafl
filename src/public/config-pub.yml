@@ -107,18 +107,18 @@ services:
         - 服务器
         - 私有部署
     # - title: Alist
-      description: 一个支持多种存储的文件列表
-      link: https://alist.ctext.top
-      icon:
-        name: i-arcticons:alist
-        wrap: true
-        color: '#7bcac3'
-      status:
-        enabled: true
-        number: 3600
-      tags:
-        - 文件管理
-        - 私有部署
+      # description: 一个支持多种存储的文件列表
+      # link: https://alist.ctext.top
+      # icon:
+      #   name: i-arcticons:alist
+      #   wrap: true
+      #   color: '#7bcac3'
+      # status:
+      #   enabled: true
+      #   number: 3600
+      # tags:
+      #   - 文件管理
+      #   - 私有部署
 
 
     # - title: FileCodeBox
