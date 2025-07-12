@@ -173,9 +173,9 @@ services:
     #     enabled: true
     #     number: 3600
     #   tags:
-        - name: Cron
-          color: emerald
-        - 私有部署
+        # - name: Cron
+        #   color: emerald
+        # - 私有部署
     # - title: AriaNG
     #   description: 离线下载
     #   link: https://ng.ctext.top/
