@@ -34,7 +34,7 @@ services:
       description: 个人主页
       link: https://home.ctext.top/
       icon:
-        url: /avatar.png
+        url: /mafl/avatar.png
         wrap: true
       status:
         enabled: true
@@ -45,7 +45,7 @@ services:
       description: 个人博客
       link: https://blog.ctext.top/
       icon:
-        url: /favicon.svg
+        url: /mafl/favicon.svg
         wrap: true
       status:
         enabled: true
@@ -84,7 +84,7 @@ services:
       description: 服务器管理面板
       link: https://bt.ctext.top/admin
       icon:
-        url : /bt.ico
+        url : /mafl/bt.ico
         wrap: true
         color: '#2b74df'
       status:
@@ -98,7 +98,7 @@ services:
       description: 服务器监控
       link: https://nezha.ctext.top/
       icon:
-        url : /nezha.svg
+        url : /mafl/nezha.svg
         wrap: true
       status:
         enabled: true
@@ -228,11 +228,20 @@ services:
 
   常用网站:
 
+    - title: ClawCloud Run
+      description: 云操作系统，5$免费额度
+      link: https://heu-central-1.run.claw.cloud
+      icon:
+        name: fluent:animal-paw-print-48-regular
+        wrap: true
+      tags:
+        - name: 服务器
+
     - title: Sealos
       description: 云操作系统
       link: https://gzg.sealos.run/
       icon:
-        url: /sealos.svg
+        url: /mafl/sealos.svg
       tags:
         - name: 服务器
 
@@ -377,7 +386,7 @@ services:
       description: 和Vercel类似
       link: https://my.kinsta.com/
       icon:
-        url: /kinsta.ico
+        url: /mafl/kinsta.ico
         wrap: true
       tags:
         - name: 静态网站部署
@@ -425,7 +434,7 @@ services:
 
     - title: mafl在线修改
       description: GitHub仓库
-      link: https://github.dev/chendada00/mafl
+      link: https://github.dev/chendada00/mafl-conf/
       icon:
         name: i-line-md:github-loop
         wrap: true
@@ -460,7 +469,7 @@ services:
       description: 本网站的文档
       link: https://mafl.hywax.space/
       icon:
-        url: /mafl.svg
+        url: /mafl/mafl.svg
         wrap: true
       tags:
         - 文档
@@ -506,7 +515,7 @@ services:
       description: 补丁下载
       link: https://speed.qq.com/web201503/page/download.shtml#patch_area
       icon:
-        url: /favicons/qqfeiche.ico
+        url: /mafl/qqfeiche.ico
         wrap: true
       tags:
         - name: 游戏
