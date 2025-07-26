@@ -349,8 +349,6 @@ services:
           color: violet
         - 私有部署
 
-
-
   影音:
     - title: LibreTV
       description: 免费在线视频搜索与观看平台
@@ -364,15 +362,15 @@ services:
 
   开发工具:
 
-    - title: httpsok
-      description: 免费https证书
-      link: https://httpsok.com/console/cert
-      icon:
-        url: https://httpsok.com/favicon.ico
-        wrap: true
-      tags:
-        - name: 网站证书
-          color: cyan
+    # - title: httpsok
+    #   description: 免费https证书
+    #   link: https://httpsok.com/console/cert
+    #   icon:
+    #     url: https://httpsok.com/favicon.ico
+    #     wrap: true
+    #   tags:
+    #     - name: 网站证书
+    #       color: cyan
     - title: Vercel
       description: 一个云平台,用于构建、部署和扩展无服务器应用程序和静态网站
       link: https://vercel.com/
@@ -463,8 +461,18 @@ services:
         - name: 接口
           color: lime
 
+  远程控制:
+    - title: AirDroid
+      description: 安卓手机远程控制网页端
+      link: https://web.airdroid.com/
+      icon:
+        name: arcticons:airdroid
+        wrap: true
+        color: "#f47a90"
+      tags:
+        - name: 远程控制
+          color: purple
 
-  
   文档:
     - title: Mafl
       description: 本网站的文档
