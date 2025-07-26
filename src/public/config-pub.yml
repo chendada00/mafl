@@ -435,7 +435,7 @@ services:
     - title: mafl在线修改
       description: GitHub仓库
       # link: https://github.dev/chendada00/mafl-conf/
-      # link: https://github.dev/chendada00/mafl
+      link: https://github.dev/chendada00/mafl
       icon:
         name: i-line-md:github-loop
         wrap: true
